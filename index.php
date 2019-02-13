@@ -8,5 +8,10 @@
 </head>
 <body>
     <div><h1>ini pakai GIT</h1></div>
+    <div><?php
+        for($i = 0; $i < 5; $i++){
+            echo("for $i");
+        }
+    ?></div>
 </body>
 </html>
